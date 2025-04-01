@@ -1,0 +1,129 @@
+.Votes .bar {
+  border: 1px solid #ff9aa2;
+  height: 10px;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+h2.designTitle {
+  display: flex;
+  margin: 0;
+  font-size: 20px;
+}
+
+div.voteButtons {
+  display: flex;
+}
+
+button.chocVoteBtn:hover {
+  background-color: brown;
+  color: white;
+}
+button.vanVoteBtn:hover {
+  background-color: beige;
+}
+button.strawVoteBtn:hover {
+  background-color: pink;
+  color: white;
+}
+
+button.active:hover {
+  background-color: #c7ceea;
+}
+button.active {
+  background-color: #e2f0cb;
+}
+
+button.darkBtn {
+  background-color: #26272f;
+  color: white;
+}
+button.darkBtn:hover {
+  background-color: #c7ceea;
+  color: black;
+}
+
+button.lightBtn {
+  background-color: #ffd1dc;
+}
+button.lightBtn:hover {
+  background-color: #ff9aa2;
+}
+
+div.Ad.dark-theme {
+  background-color: #26272f;
+  text-align: center;
+  color: white;
+}
+
+div.Ad {
+  text-align: center;
+  border: #d7d8e1 1px solid;
+  border-radius: 10px;
+  background-color: #ffc1cc;
+}
+
+div.Votes {
+  border: #80e5ba solid 7px;
+  border-radius: 10px;
+  margin-top: 50px;
+  padding: 5%;
+}
+
+p.choice {
+  font-size: 25px;
+}
+
+p.dark {
+  font-size: 25px;
+}
+
+p.font {
+  font-size: 25px;
+}
+
+div.choiceExample {
+  display: flex;
+}
+
+div.darkModeExample {
+  display: flex;
+}
+
+div.fontExample {
+  display: flex;
+  justify-content: space-evenly;
+}
+p.fontNumEx {
+  padding: 10px;
+  border: 1px solid pink;
+  border-radius: 5px;
+}
+button.upButton {
+  background-color: #ffdac1;
+  border-radius: 10%;
+}
+button.upButton:hover {
+  background-color: #ffb7b2;
+}
+button.downButton:hover {
+  background-color: #ffb7b2;
+}
+button.downButton {
+  background-color: #ffdac1;
+  border-radius: 10%;
+}
+
+@media screen and (min-width: 768px) {
+  button {
+    padding: 25px 50px;
+  }
+  h2.designTitle {
+    margin-left: 10px;
+  }
+}
